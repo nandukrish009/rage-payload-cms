@@ -9,7 +9,8 @@ import Media from './collections/Upload';
 
 
 export default buildConfig({
-  serverURL: 'http://localhost:3000',
+  // serverURL: 'http://localhost:3000',
+  serverURL: 'https://rage-payload-cms.vercel.app',
   admin: {
     user: Users.slug,
   },
